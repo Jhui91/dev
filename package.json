@@ -1,0 +1,35 @@
+{
+  "name": "jpdamn",
+  "version": "1.0.0",
+  "description": "본 프로젝트는 공공 API와 자체 DB를 활용해 건강보조식품 정보를 수집, 저장, 분석하는 Node.js 기반 시스템입니다.  \r 건강보조식품의 효능, 사용법, 주의사항, 상호작용 등의 정보를 자동으로 가져와 데이터베이스에 저장하고,  \r 경고 키워드를 분석해 사용자에게 알림을 제공합니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graduation-Project-JPD/JPDamn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Graduation-Project-JPD/JPDamn/issues"
+  },
+  "homepage": "https://github.com/Graduation-Project-JPD/JPDamn#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "iconv-lite": "^0.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0",
+    "mysql2": "^3.14.1",
+    "node-cron": "^4.2.1"
+  }
+}
